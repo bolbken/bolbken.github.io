@@ -1,9 +1,10 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "bolbken.dev",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Personal portfolio website.",
+  "repository": "git@github.com:bolbken/bolbken.github.io.git",
+  "author": "Ben Kolb <ben@bolbken.dev>",
   "dependencies": {
     "gatsby": "^2.32.3",
     "gatsby-image": "^2.11.0",
@@ -22,9 +23,11 @@
     "prettier": "2.2.1"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "bolbken",
+    "portfolio"
   ],
-  "license": "0BSD",
+  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -33,12 +36,5 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
